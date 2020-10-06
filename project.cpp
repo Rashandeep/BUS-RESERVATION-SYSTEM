@@ -1,25 +1,20 @@
-//#include <conio.h>
-
-//#include <cstdio>
-
+// HEADER FILES
 #include <iostream>
-
 #include <string.h>
-
-//#include <cstdlib>
 
 using namespace std;
 
+// STATIC VARIABLE
 static int p = 0;
 
-class a
-
-{
+// DEFINING THE CLASS
+class a{
 
   char busn[5], driver[10], arrival[5], depart[5], from[10], to[10], seat[8][4][10];
 
 public:
 
+  // CLASS FUNCTION DEFINATIONS
   void install();
 
   void allotment();
